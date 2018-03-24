@@ -15,6 +15,7 @@
         "symfony/yaml": "^4.0"
     },
     "require-dev": {
+        "overblog/graphiql-bundle": "^0.1.0",
         "symfony/dotenv": "^4.0"
     },
     "config": {
@@ -59,6 +60,6 @@
             "id": "",
             "allow-contrib": false
         },
-        "symfony.id": "01C9D3NXQ1TFC9ZRJDFVX3AC48"
+        "symfony.id": "01C9D3X14NZ37SQRNMQXVBWNZA"
     }
 }
