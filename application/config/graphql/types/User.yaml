@@ -1,0 +1,39 @@
+#   type object : User {
+#     id: String!
+#     firstName: String
+#     lastName: String
+#     email: String
+#     password: String
+#     isActive: Boolean
+#     roles: [UserRole]
+#     urlToken: String
+#   }
+User:
+    type: object
+    config:
+        description: "App User"
+        fields:
+            id:
+                type: "String!"
+                description: "The unique User ID."
+            firstName:
+                type: "String"
+                description: "Users first name"
+            lastName:
+                type: "String"
+                description: "Users last name"
+            email:
+                type: "String"
+                description: "Users email"
+            password:
+                type: "String"
+                description: "Encoded Users password"
+            isActive:
+                type: "Boolean"
+                description: "Boolean if User is Active"
+            roles:
+                type: "[UserRole]"
+                description: "User role defining his privileges"
+            urlToken:
+                type: "String"
+                description: "Url token used for lost password url link"

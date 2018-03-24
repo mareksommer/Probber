@@ -1,0 +1,12 @@
+Query:
+    type: object
+    config:
+        description: "Apartments ORM repository"
+        fields:
+            user:
+                type: "User"
+                args:
+                    id:
+                        description: "If omitted, returns all users"
+                        type: "String"
+                resolve: "@=resolver('User', [args])" 
